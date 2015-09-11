@@ -29,7 +29,7 @@
         android:id="@+id/currentPasswdLabel"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Current password:" />
+        android:text="@string/current_passwd_pmt" />
 
     <EditText
         android:id="@+id/currentPasswdText"
@@ -46,7 +46,7 @@
         android:id="@+id/newPasswdLabel"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="New password:" />
+        android:text="@string/new_passwd_pmt" />
 
     <EditText
         android:id="@+id/newPasswordText"
@@ -60,7 +60,7 @@
         android:id="@+id/newPasswdConfirmLabel"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Confirm new password:" />
+        android:text="@string/confirm_passwd_pmt" />
 
     <EditText
         android:id="@+id/confirmNewPasswdText"
@@ -75,6 +75,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="@dimen/control_margin"
-        android:text="Change password" />
+        android:text="@string/change_passwd_btn" />
 
 </LinearLayout>
